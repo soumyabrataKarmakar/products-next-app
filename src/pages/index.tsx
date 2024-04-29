@@ -11,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="main_page">
+        {/* Products component to render the datagrid */}
         <ProductsTable />
       </main>
     </>
